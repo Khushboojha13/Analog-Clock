@@ -1,0 +1,57 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.main{
+    width:100%;
+    min-height: 70vh;
+    display: flex;;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    position: relative;
+}
+.clock{
+    background-image: url("pngwing.com.png");
+    background-repeat: no-repeat;
+    background-size:100%;
+    width:38%;
+    min-height:80vh;
+    position: relative;
+}
+.hours{
+    position: absolute;
+    width:1.5%;
+    min-height: 22vh;
+    border-radius: 4px;
+    background-color: black;
+    top:18vh;
+    left:18.65vw;
+    opacity:0.8;
+    transform-origin: bottom;
+}
+
+.minutes{
+    position: absolute;
+    width:1.5%;
+    min-height: 26vh;
+    border-radius: 4px;
+    background-color: black;
+    top:14vh;
+    left:18.65vw;
+    opacity:0.9;
+    transform-origin: bottom;
+}
+
+.seconds{
+    position: absolute;
+    width: 0.7%;
+    min-height: 29vh;
+    border-radius: 4px;
+    background-color: black;
+    top:11vh;
+    left:18.8vw;
+    opacity:1;
+    transform-origin: bottom;
+}
